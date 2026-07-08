@@ -14,6 +14,7 @@ required_memory=(
 
 required_common=(
   "README.md"
+  "README.ja.md"
   "AGENTS.md"
   "LICENSE"
   "Makefile"
@@ -58,7 +59,7 @@ if [[ "$MODE" == "--structure-only" || "$MODE" == "all" ]]; then
     }
   fi
 
-  if rg -n "video-os-v2-spec|/Users/|Downloads/写真" README.md select-photos tests docs .github >/tmp/select-photos-private-scan.txt 2>/dev/null; then
+  if rg -n "video-os-v2-spec|/Users/|Downloads/写真" README.md README.ja.md select-photos tests docs .github >/tmp/select-photos-private-scan.txt 2>/dev/null; then
     echo "public repo scan found local/private path references:" >&2
     cat /tmp/select-photos-private-scan.txt >&2
     missing=1

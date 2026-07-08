@@ -23,3 +23,18 @@ Validation:
 Next:
 
 - Add synthetic example materials and a changelog/release workflow.
+
+## 2026-07-08 README Expansion
+
+Status: ready to publish
+
+What changed:
+
+- Expanded `README.md` from a minimal feature list into a public-facing story
+  about the painful post-event photo-selection workflow.
+- Added `README.ja.md` with a Japanese version focused on empathy for event
+  photographers and organizers who need to share photos quickly.
+
+Validation:
+
+- Passed: `make ci-check`

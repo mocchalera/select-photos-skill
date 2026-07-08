@@ -49,6 +49,8 @@ Working set:
 
 - `select-photos/SKILL.md`
 - `select-photos/scripts/`
+- `README.md`
+- `README.ja.md`
 - `tests/`
 - `scripts/`
 - `.github/workflows/ci.yml`
