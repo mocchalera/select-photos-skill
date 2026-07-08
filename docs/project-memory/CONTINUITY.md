@@ -21,6 +21,7 @@ Key decisions:
 State:
 
 - Local repo initialized on `main`.
+- Public remote: `https://github.com/mocchalera/select-photos-skill`.
 - Skill payload copied and made portable.
 - Tests, CI, install script, and package script added.
 - `make ci-check` passes locally.
@@ -34,7 +35,7 @@ Done:
 
 Now:
 
-- Commit, create public GitHub repo, and push.
+- Public repo is created and `main` is pushed.
 
 Next:
 
